@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Trebuchet MS', sans-serif;*/
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+}
+
+.nav{
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 1% 2%;
+}
+
+
+.left-nav a{
+    font-size: 1.2rem;
+    margin-right: 70px;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#logo{  
+    height: 2.3em;
+    margin-right: 30px;
+}
+
+#login{
+    font-size: 1.3em;
+    padding: 5px 25px;
+    border-radius: 7px;
+    background-color: #5552FF;
+    color: #ffffff;
+    position: absolute;
+    left: 90%;
+}
+
+#lft-box{
+    height: 100vh;
+    background-color: #EDF2F4;
+    width: 60%;
+}
+
+#lft-box1{
+    height: 100vh;
+    background-color: #EDF2F4;
+    width: 75%;
+    position: absolute;
+    top: 15%;
+    border-radius: 50px;    
+}
+
+
+#union{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    /*margin: 0 5%;*/
+    width: 90%;
+    height: 80em;
+}
+
+h1{
+    position: absolute;
+    top: 18%;
+    font-size: 5rem;
+    margin-left: 20%;
+    font-weight: bold;
+}
+ #unq{
+    color: #5552FF;
+    font-size: 5rem;
+ }
+
+#tile1{
+    background-color: #ffffff;
+    border-radius: 20px;    
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: 12rem;
+    position: absolute;
+    top:42%;
+    left: 12%;
+    font-size: 1.3rem;
+    padding-right: 10px;
+    padding: 10px;
+
+}
+
+
+#tile1  img{
+    height: 50px;
+    width: 50px;
+    
+} 
