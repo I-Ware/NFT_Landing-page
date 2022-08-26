@@ -7,40 +7,101 @@
     font-size: 16px;
 }
 
-.nav{
-    display: flex;
-    /*justify-content: space-between;*/
-    margin: 1% 2%;
+html,body{
+    width: 100%;
 }
 
 
-.left-nav a{
-    font-size: 1.2rem;
-    margin-right: 70px;
+
+/* NAVBAR AREA */
+
+body{
+    font-family: 'Didact Gothic';
+}
+
+header{
+    width: 100%;
+    height: .5vh;
+}
+
+.logo{
+    position: fixed;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 16px 36px;
+}
+
+.menu btn{
+    
+    float: right;
+    height: 30px;
+    width: 60px;
+    margin: 16px 0;
+}
+
+nav.nav_dark ul{
+    background-color:#1b1b3f
+}
+nav.nav_dark ul li a{
+    color: #ffffff;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    margin-left: 0;
+    z-index: 1000000000;
+}
+
+nav ul{
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+   font-weight: bold;
     text-decoration: none;
     color: #000000;
-    margin-top: 30px;
-    font-weight: bold;
-}
-#logo{  
-    height: 2.3em;
-    margin-right: 30px;
+    
 }
 
-#login{
+nav ul .btn{
+    display: inline;
+    float: right;
+    margin: 24px 36px;
+}
+
+nav ul button{
     font-size: 1.3em;
+    font-weight: bold;
     padding: 5px 25px;
     border-radius: 7px;
     background-color: #5552FF;
     color: #ffffff;
-    position: absolute;
-    left: 90%;
+    box-shadow: 5px 10px 20px black;
 }
+
+
+/* CONTENT AREA */
 
 #lft-box{
     height: 100vh;
     background-color: #EDF2F4;
     width: 60%;
+    margin-top: 3.5%;
 }
 
 #lft-box1{
@@ -56,18 +117,25 @@
 #union{
     position: absolute;
     top: 20%;
-    left: 5%;
+    left: 7.5%;
     /*margin: 0 5%;*/
-    width: 90%;
-    height: 80em;
+    width: 85%;
+    height: 75em;
 }
 
 h1{
     position: absolute;
     top: 18%;
     font-size: 5rem;
-    margin-left: 20%;
+    margin-left: 22%;
     font-weight: bold;
+}
+
+h2{
+    position: absolute;
+    top: 75rem;
+    font-size: 1.6rem;
+    left: 8%;
 }
  #unq{
     color: #5552FF;
@@ -80,14 +148,14 @@ h1{
     display: flex;
     justify-content: space-between;
     height: 4.5rem;
-    width: 12rem;
+    width: 15rem;
     position: absolute;
-    top:42%;
-    left: 12%;
+    top:38%;
+    left: 12.5%;
     font-size: 1.3rem;
     padding-right: 10px;
     padding: 10px;
-
+    box-shadow: 5px 10px 20px;
 }
 
 
@@ -96,3 +164,52 @@ h1{
     width: 50px;
     
 } 
+
+#tile2{
+    background-color: #ffffff;
+    border-radius: 20px;    
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: 15rem;
+    position: absolute;
+    top:38%;
+    left: 74.5%;
+    font-size: 1.3rem;
+    padding-right: 10px;
+    padding: 10px;
+    box-shadow: 5px 10px 20px;
+
+}
+
+
+#tile1  img{
+    height: 50px;
+    width: 50px;
+} 
+
+#btn{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 15px 55px;
+    border-radius: 7px;
+    background-color: #5552FF;
+    color: #ffffff;
+    position: absolute;
+    left: 80%;
+    top: 75rem;
+    box-shadow: 5px 10px 20px black;
+}
+
+.page-div{
+    background-color: #5552FF;
+    width: 100%;
+    height: 5rem;
+    margin-top: 20%;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 4.5%;
+}   
+.page-div marquee{
+    font-size: 4rem;
+}

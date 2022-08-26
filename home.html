@@ -5,37 +5,63 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="home.css">
-        <!--<script src="https://kit.fontawesome.com/a3ecfe424d.js" crossorigin="anonymous"></script>-->    
         <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="home.js"></script>
         <title>Nft Home</title>
     </head>
     <body>
 
-        <div class="nav">
-            <img id="logo" src="/images/logo.svg" alt="logo_Here">
-            <div class="left-nav">
-                
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Marketplace</a>
-                <a href="#">Governance</a>
-                <a href="#">Discord</a>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <div class="logo"><img src="/images/logo.svg" alt="logo_Here"></div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Marketplace</a></li>
+                            <li><a href="#">Governance</a></li>
+                            <li><a href="#">Discord</a></li>
+                            <div class="btn"><button>Login</button></div>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            </header>
 
+        <div class="content">
+
+            <div id="lft-box"></div>
+            <div id="lft-box1"></div>
+            <div id="tile1">
+                <img src="/images/Ellipse 48.svg" alt="img here">
+                <p><b>Anna may</b> <br> Donated  $100</p>
             </div>
 
-            <button id="login">Log in</button>
+            <div id="tile2">
+                <img src="/images/Ellipse 50.svg" alt="img here">
+                <p><b>Anna may</b> <br> Donated  $100</p>
+            </div>
+
+
+            <img id="union" src="/images/Union.svg" alt="">
+            
+            <h1> Discover <b id="unq">Unique</b>  NFT places</h1>
+
+            <h2>The Environmental Social Governance <br>(ESG) DAO that rewards contributors<br> for supporting community.</h2>
+
+            <button id="btn">Mint now</button>
+
+
+            <div class="page-div">
+                <marquee class = "marquee" behavior="scroll" direction="left">
+                    Collect your eco NTFs * Collect your eco NTFs * Collect your eco NTFs * Collect your eco NTFs 
+                </marquee>
+                
+            </div>
+            
         </div>
-
-        <div id="lft-box"></div>
-        <div id="lft-box1"></div>
-        <div id="tile1">
-            <img src="/images/Ellipse 48.svg" alt="img here">
-            <p><b>Anna may</b> <br> Donated $100</p>
-        </div>
-        <img id="union" src="/images/Union.svg" alt="">
-
-        <h1> Discover <b id="unq">Unique</b>  NFT places</h1>
-
         
     </body>
     </html>
