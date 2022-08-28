@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: 'Trebuchet MS', sans-serif;*/
     font-family: 'Didact Gothic';
     font-size: 16px;
 }
@@ -95,6 +94,8 @@ nav ul button{
 }
 
 
+
+
 /* CONTENT AREA */
 
 #lft-box{
@@ -118,28 +119,28 @@ nav ul button{
     position: absolute;
     top: 20%;
     left: 7.5%;
-    /*margin: 0 5%;*/
     width: 85%;
     height: 75em;
 }
 
-h1{
+#first-txt{
     position: absolute;
     top: 18%;
-    font-size: 5rem;
-    margin-left: 22%;
+    font-size: 380%;
+    margin-left: 30%;
     font-weight: bold;
+    font-family: 'Didact Gothic';
 }
 
-h2{
+h3{
     position: absolute;
-    top: 75rem;
+    top: 71rem;
     font-size: 1.6rem;
-    left: 8%;
+    left: 9%;
 }
  #unq{
     color: #5552FF;
-    font-size: 5rem;
+    font-size: 120%;
  }
 
 #tile1{
@@ -196,15 +197,15 @@ h2{
     background-color: #5552FF;
     color: #ffffff;
     position: absolute;
-    left: 80%;
-    top: 75rem;
+    left: 77%;
+    top: 72rem;
     box-shadow: 5px 10px 20px black;
 }
 
 .page-div{
     background-color: #5552FF;
     width: 100%;
-    height: 5rem;
+    height: 1rem;
     margin-top: 20%;
     color: #ffffff;
     font-weight: bold;
@@ -213,3 +214,333 @@ h2{
 .page-div marquee{
     font-size: 4rem;
 }
+
+
+.left-pane{
+    background-color: #EDF2F4;
+    height: 70rem;
+    width: 55%;
+    border-bottom-right-radius: 50%;
+}
+
+.left-pane img{
+    width:80%;
+    margin-left:20%;
+}
+
+.tile0{
+    background-color: #ffffff;
+    border-radius: 10px;    
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    width: 15rem;
+    position: absolute;
+    top:185%;
+    left: 5%;
+    font-size: 1.3rem;
+    padding-right: 10px;
+    padding: 10px;
+    box-shadow: 5px 10px 20px;
+}
+
+
+.tile0  img{
+    height: 50px;
+    width: 50px;
+    
+} 
+
+.lvl-1 #text{
+    font-size:500%;
+    font-weight: bold;
+    position: absolute;
+    top: 170%;
+    color: #1E344F;
+    left: 35%;
+}
+
+#b-txt{
+    color: #FF7051;
+    font-size:100%;
+}
+
+.lvl-1 #img{
+    position: absolute;
+    top: 183%;
+    right: 12%;
+    width: 12%;
+    height: 12%;
+
+}
+
+.circle{
+    position: absolute;
+    top: 203%;
+    display: flex;
+    margin: 0 5%;
+}
+.circle img{
+    float: right;
+    height:50%;
+    width: 50%;
+    margin-right: 465%;
+}
+
+.pane-tiles{
+    position: absolute;
+    background-color: #1E344F;
+    height: 100%;
+    width: 100%;
+    top: 200%;
+    z-index: 1000000000000;
+} 
+
+.tile{
+    position: absolute;
+    background-color:#ffffff;
+    height: 47%;
+    width: 18%;
+    box-shadow: 5px 10px 20px black;
+    border-radius: 5%;
+    padding: 2%;
+}
+ #lft{
+    top:210.5%;
+    margin-left: 8.5%;
+ }
+
+ #mid{
+    top: 202%;
+    left: 38%;
+   
+ }
+
+ #right{
+    top: 210.5%;
+    right: 15%;
+ }
+
+ .string1{
+    position: absolute;
+    left: 18%;
+    top: 205%;
+    width: 25%;
+    height: 20%;
+    z-index: 10;
+ }
+
+ .string2{
+    position: absolute;
+    right: 30%;
+    top: 200%;
+    width: 20%;
+    z-index: 100;
+ }
+
+ #lft img, #mid img, #right img{
+    margin-bottom: 13%;
+}
+#lft h2, #mid h2, #right h2{
+    margin-bottom: 10%;
+}
+
+#lft p, #mid p, #right p{
+    margin-bottom: 20%;
+    font-size: 120%;
+}
+
+#lft button, #mid button, #right button{
+    height: 12%;
+    width: 40%;
+    border-radius: 5%;
+    background-color: #5552FF;
+    color: #ffffff;
+    margin: 0 30%;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+
+#circle11{
+    border-width: thick;
+    width: 300px;
+    height: 300px;
+}
+
+/*  Section 2*/
+
+.section2{
+    margin-top: 3%;
+}
+
+.section2 .btn button{
+    margin: 0 45%;
+    height: 2.5rem;
+    width: 7%;
+    border-radius: 7px;
+    background-color: #E7EEFA;
+}
+
+.section2 .txt{
+    margin: 2% 5%;
+}
+
+.section2 h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin: 0 28.5%;
+    color: #1E344F;
+}   
+
+.section2 p{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin  : 2% 22%;
+    color: #162639;
+}
+
+.twn-btn{margin: 0 40%;}
+
+.twn-btn button{
+    height: 2.7rem;
+    width: 45%;
+}
+
+#btn-lft{
+    margin-right: 5%;
+    background-color: #5552FF;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#btn-rght{
+    background-color: #ffffff;
+    color:  #5552FF;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.money-hold{
+    margin-bottom: 18%;
+}
+
+.money-hold p{
+    font-weight: bold;
+}
+
+.mony1, .mony2, .mony3{
+    height: 11rem;
+    width: 22%;
+    border-radius: 10px;
+   
+}
+
+.mony1{
+    background-color: #FFF2E2;
+    margin-left: 30%;
+    margin-top: 8%;  
+}
+.mony1 h2{
+    font-size: 300%;
+    font-weight: bold;
+    padding: 5%;    
+}
+
+.mony1 .img-p{
+    display: flex;
+    margin: 0 10%;
+}
+
+.mony2{
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 54%;
+    top: 340%;
+     box-shadow: 5px 10px 20px black;       
+}
+
+.mony2 h2{
+    font-size: 275%;
+    font-weight: bold;
+    padding: 5%;
+}
+
+.mony2 .img-p{
+    display: flex;
+    margin: 0 10%;
+}
+
+.mony3{
+    position: absolute;
+    background-color: #5552FF;
+    margin-left: 54%;
+    top: 363%;
+}
+
+.mony3 h2{
+    font-size: 275%;
+    font-weight: bold;
+    padding: 5%;
+    color: #ffffff;
+}
+
+.mony3 .img-p{
+    display: flex;
+    margin: 0 10%;
+}
+.mony3 p{
+    color: white;
+}
+
+.circles{
+    display: flex;
+}
+
+
+#circle-l1,#circle-l2,#circle-l3,#circle-l4,
+#circle-l5,#circle-l6,#circle-l7,#circle-l8,
+#circle-l9,#circle-l10,#circle-l11{
+    /* width: 400px;
+    height: 400px; */
+    background: none;
+    border: 1px solid #D1CDDE;
+    border-radius: 50%;
+}
+
+
+#circle-r1,#circle-r2,#circle-r3,#circle-r4,
+#circle-r5,#circle-r6,#circle-r7,#circle-r8,
+#circle-r9,#circle-r10,#circle-r11{
+    width: 400px;
+    height: 400px;
+    background: none;
+    border: 1px solid #D1CDDE;
+    border-radius: 50%;
+  }
+
+
+  #circle-l1{
+    margin-left:90%;
+    width: 40rem;
+    height: 40rem ;
+  }
+  #circle-l2{
+    position: absolute;
+    margin-left:31.1%;
+    width: 38rem;
+    height: 38rem ;
+    top: 409.5%;
+  }
+
+  #circle-l3{
+    position: absolute;
+    margin-left:31.9%;
+    width: 36rem;
+    height: 36rem ;
+    top: 411.3%;
+  }
+
